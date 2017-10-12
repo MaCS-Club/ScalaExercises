@@ -1,0 +1,7 @@
+[0m[[0m[0minfo[0m] [0m[0m[32mComprehensionTest:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mList sum of (1,2,3,4,5)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should be equal 15[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mMondic for comprehenshion[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should work on our List[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mForeach with print[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should print 12345 to standart[0m[0m
