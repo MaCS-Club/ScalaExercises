@@ -1,13 +1,13 @@
 sealed trait List[+A]{
   self=>
 
-  def foreach[U] (f:A=>U):Unit=???
+  def foreach[U] (f:A=>U):Unit= ???
     
-  def flatMap[B] (f:A=>List[B]):List[B]=???
+  def flatMap[B] (f:A=>List[B]):List[B]= ???
     
-  def map[B] (f:A=>B):List[B]=???
+  def map[B] (f:A=>B):List[B]= ???
     
-  def filter(f:A=>Boolean):List[A]=???
+  def filter(f:A=>Boolean):List[A]= ???
     
 
   def withFilter(p: A => Boolean): WithFilter = new WithFilter(p)
@@ -43,7 +43,7 @@ object List{
     loop(as,z)
   }
   def foldRight[A,B](as:List[A],z:B) (f:(A,B)=>B): B=
-    foldLeft(as,(b:B)=>b) ((g,a)=>b=>g(f(a,b))) (z)
+    foldLeft(as,(b:B)=>b) ((g,a)=>(b=>g(f(a,b)))) (z)
 
   def append[A](a1: List[A],a2: List[A]):List[A]=
     foldRight(a1,a2) (Cons(_,_))

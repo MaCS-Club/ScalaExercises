@@ -1,18 +1,13 @@
-[0m[[0m[31merror[0m] [0m[0m/home/wolfas/ScalaExercises/src/main/scala/List.scala:5:5: not found: value foldLeft[0m
-[0m[[0m[31merror[0m] [0m[0m    foldLeft(this, ())((_,a)=>f(a))[0m
-[0m[[0m[31merror[0m] [0m[0m    ^[0m
-[0m[[0m[31merror[0m] [0m[0m/home/wolfas/ScalaExercises/src/main/scala/List.scala:7:5: not found: value foldRight[0m
-[0m[[0m[31merror[0m] [0m[0m    foldRight(this,Nil:List[B])((a,bs)=>append(f(a),bs))[0m
-[0m[[0m[31merror[0m] [0m[0m    ^[0m
-[0m[[0m[31merror[0m] [0m[0m/home/wolfas/ScalaExercises/src/main/scala/List.scala:7:41: not found: value append[0m
-[0m[[0m[31merror[0m] [0m[0m    foldRight(this,Nil:List[B])((a,bs)=>append(f(a),bs))[0m
-[0m[[0m[31merror[0m] [0m[0m                                        ^[0m
-[0m[[0m[31merror[0m] [0m[0m/home/wolfas/ScalaExercises/src/main/scala/List.scala:9:5: not found: value foldRight[0m
-[0m[[0m[31merror[0m] [0m[0m    foldRight(this,Nil:List[B])((a,bs)=>Cons(f(a),bs))[0m
-[0m[[0m[31merror[0m] [0m[0m    ^[0m
-[0m[[0m[31merror[0m] [0m[0m/home/wolfas/ScalaExercises/src/main/scala/List.scala:17:64: type mismatch;[0m
-[0m[[0m[31merror[0m] [0m[0m found   : List[B][0m
-[0m[[0m[31merror[0m] [0m[0m required: Option[B][0m
-[0m[[0m[31merror[0m] [0m[0m    def flatMap[B](f: A => List[B]): Option[B] = self filter p flatMap f[0m
-[0m[[0m[31merror[0m] [0m[0m                                                               ^[0m
-[0m[[0m[31merror[0m] [0m[0m5 errors found[0m
+[0m[[0m[31merror[0m] [0m[0m/home/wolfas/ScalaExercises/src/main/scala/List.scala:4:35: identifier expected but ';' found.[0m
+[0m[[0m[31merror[0m] [0m[0m  def foreach[U] (f:A=>U):Unit=???;[0m
+[0m[[0m[31merror[0m] [0m[0m                                  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/wolfas/ScalaExercises/src/main/scala/List.scala:6:44: identifier expected but ';' found.[0m
+[0m[[0m[31merror[0m] [0m[0m  def flatMap[B] (f:A=>List[B]):List[B]=???;[0m
+[0m[[0m[31merror[0m] [0m[0m                                           ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/wolfas/ScalaExercises/src/main/scala/List.scala:8:34: identifier expected but ';' found.[0m
+[0m[[0m[31merror[0m] [0m[0m  def map[B] (f:A=>B):List[B]=???;[0m
+[0m[[0m[31merror[0m] [0m[0m                                 ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/wolfas/ScalaExercises/src/main/scala/List.scala:10:39: identifier expected but ';' found.[0m
+[0m[[0m[31merror[0m] [0m[0m  def filter(f:A=>Boolean):List[A]=???;[0m
+[0m[[0m[31merror[0m] [0m[0m                                      ^[0m
+[0m[[0m[31merror[0m] [0m[0mfour errors found[0m

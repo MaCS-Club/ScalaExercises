@@ -2,6 +2,30 @@
 [0m[[0m[0minfo[0m] [0m[0m[32mList sum of (1,2,3,4,5)[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[32m- should be equal 15[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[32mMondic for comprehenshion[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- should work on our List[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- should work on our List *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  scala.NotImplementedError: an implementation is missing[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.Predef$.$qmark$qmark$qmark(Predef.scala:284)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at List.filter(List.scala:10)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at List.filter$(List.scala:10)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at Cons.filter(List.scala:23)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at List$WithFilter.flatMap(List.scala:17)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at ComprehensionTest.$anonfun$new$2(ComprehensionTest.scala:11)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf(OutcomeOf.scala:85)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf$(OutcomeOf.scala:83)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply(Transformer.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[32mForeach with print[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- should print 12345 to standart[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- should print 12345 to standart *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  scala.NotImplementedError: an implementation is missing[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.Predef$.$qmark$qmark$qmark(Predef.scala:284)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at List.foreach(List.scala:4)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at List.foreach$(List.scala:4)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at Cons.foreach(List.scala:23)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at ComprehensionTest.$anonfun$new$7(ComprehensionTest.scala:20)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:12)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.util.DynamicVariable.withValue(DynamicVariable.scala:58)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.Console$.withOut(Console.scala:163)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at ComprehensionTest.$anonfun$new$6(ComprehensionTest.scala:20)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf(OutcomeOf.scala:85)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
