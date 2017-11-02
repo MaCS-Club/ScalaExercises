@@ -1,4 +1,4 @@
-[0m[[0m[0minfo[0m] [0m[0mUpdating {file:/home/wolfas/ScalaExercises/}scalaexercises...[0m
+[0m[[0m[0minfo[0m] [0m[0mUpdating {file:/home/vasyukhinas/ScalaExercises/}scalaexercises...[0m
 [0m[[0m[0mdebug[0m] [0m[0m:: resolving dependencies :: default#scalaexercises_2.12;0.1-SNAPSHOT[0m
 [0m[[0m[0mdebug[0m] [0m[0m	confs: [compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, pom, scala-tool][0m
 [0m[[0m[0mdebug[0m] [0m[0m	validate = true[0m
@@ -9,20 +9,8 @@
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, optional(default)]}[0m
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.1 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.1 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.1 {scala-tool=[default, optional(default)], compile=[default(compile)]}[0m
 [0m[[0m[0mdebug[0m] [0m[0msbt-chain: Checking cache for: dependency: org.scala-lang#scala-library;2.12.1 {scala-tool=[default, optional(default)], compile=[default(compile)]}[0m
-[0m[[0m[0mdebug[0m] [0m[0msbt-chain-delegate: Checking cache for: dependency: org.scala-lang#scala-library;2.12.1 {scala-tool=[default, optional(default)], compile=[default(compile)]}[0m
-[0m[[0m[0mdebug[0m] [0m[0m		tried /home/wolfas/.ivy2/local/org.scala-lang/scala-library//2.12.1/ivys/ivy.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0m	local: no ivy file found for org.scala-lang#scala-library;2.12.1[0m
-[0m[[0m[0mdebug[0m] [0m[0m		tried https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.1/scala-library-2.12.1.pom[0m
-[0m[[0m[0mdebug[0m] [0m[0m	public: found md file for org.scala-lang#scala-library;2.12.1[0m
-[0m[[0m[0mdebug[0m] [0m[0m		=> https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.1/scala-library-2.12.1.pom (2.12.1)[0m
-[0m[[0m[0mdebug[0m] [0m[0mdownloading https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.1/scala-library-2.12.1.pom ...[0m
-[0m[[0m[0mdebug[0m] [0m[0m	public: downloading https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.1/scala-library-2.12.1.pom[0m
-[0m[[0m[0mdebug[0m] [0m[0m	public: downloading https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.1/scala-library-2.12.1.pom.sha1[0m
-[0m[[0m[0mdebug[0m] [0m[0msha1 OK for https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.1/scala-library-2.12.1.pom[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[SUCCESSFUL ] org.scala-lang#scala-library;2.12.1!scala-library.pom(pom.original) (261ms)[0m
-[0m[[0m[0mdebug[0m] [0m[0m		tried /home/wolfas/.ivy2/local/org.scala-lang/scala-library//2.12.1/jars/scala-library.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m		tried https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.1/scala-library-2.12.1.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m	found org.scala-lang#scala-library;2.12.1 in public[0m
+[0m[[0m[0mdebug[0m] [0m[0msbt-chain: module revision found in cache: org.scala-lang#scala-library;2.12.1[0m
+[0m[[0m[0mdebug[0m] [0m[0m	found org.scala-lang#scala-library;2.12.1 in sbt-chain[0m
 [0m[[0m[0mdebug[0m] [0m[0m	[2.12.1] org.scala-lang#scala-library;2.12.1[0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#scalaexercises_2.12;0.1-SNAPSHOT->org.scala-lang#scala-library;2.12.1 [compile->runtime][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#scalaexercises_2.12;0.1-SNAPSHOT->org.scala-lang#scala-library;2.12.1 [compile->compile][0m
@@ -61,7 +49,7 @@
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.1 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.1 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.1 {scala-tool=[default, optional(default)], compile=[default(compile)]}[0m
 [0m[[0m[0mdebug[0m] [0m[0msbt-chain: Checking cache for: dependency: org.scalatest#scalatest_2.12;3.0.1 {test=[default(compile)]}[0m
 [0m[[0m[0mdebug[0m] [0m[0msbt-chain-delegate: Checking cache for: dependency: org.scalatest#scalatest_2.12;3.0.1 {test=[default(compile)]}[0m
-[0m[[0m[0mdebug[0m] [0m[0m		tried /home/wolfas/.ivy2/local/org.scalatest/scalatest_2.12//3.0.1/ivys/ivy.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried /home/vasyukhinas/.ivy2/local/org.scalatest/scalatest_2.12//3.0.1/ivys/ivy.xml[0m
 [0m[[0m[0mdebug[0m] [0m[0m	local: no ivy file found for org.scalatest#scalatest_2.12;3.0.1[0m
 [0m[[0m[0mdebug[0m] [0m[0m		tried https://repo1.maven.org/maven2/org/scalatest/scalatest_2.12/3.0.1/scalatest_2.12-3.0.1.pom[0m
 [0m[[0m[0mdebug[0m] [0m[0m	public: found md file for org.scalatest#scalatest_2.12;3.0.1[0m
@@ -70,8 +58,8 @@
 [0m[[0m[0mdebug[0m] [0m[0m	public: downloading https://repo1.maven.org/maven2/org/scalatest/scalatest_2.12/3.0.1/scalatest_2.12-3.0.1.pom[0m
 [0m[[0m[0mdebug[0m] [0m[0m	public: downloading https://repo1.maven.org/maven2/org/scalatest/scalatest_2.12/3.0.1/scalatest_2.12-3.0.1.pom.sha1[0m
 [0m[[0m[0mdebug[0m] [0m[0msha1 OK for https://repo1.maven.org/maven2/org/scalatest/scalatest_2.12/3.0.1/scalatest_2.12-3.0.1.pom[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[SUCCESSFUL ] org.scalatest#scalatest_2.12;3.0.1!scalatest_2.12.pom(pom.original) (261ms)[0m
-[0m[[0m[0mdebug[0m] [0m[0m		tried /home/wolfas/.ivy2/local/org.scalatest/scalatest_2.12//3.0.1/bundles/scalatest_2.12.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[SUCCESSFUL ] org.scalatest#scalatest_2.12;3.0.1!scalatest_2.12.pom(pom.original) (241ms)[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried /home/vasyukhinas/.ivy2/local/org.scalatest/scalatest_2.12//3.0.1/bundles/scalatest_2.12.jar[0m
 [0m[[0m[0mdebug[0m] [0m[0m		tried https://repo1.maven.org/maven2/org/scalatest/scalatest_2.12/3.0.1/scalatest_2.12-3.0.1.jar[0m
 [0m[[0m[0mdebug[0m] [0m[0m	found org.scalatest#scalatest_2.12;3.0.1 in public[0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#scalaexercises_2.12;0.1-SNAPSHOT->org.scalatest#scalatest_2.12;3.0.1 [test->runtime][0m
@@ -122,7 +110,7 @@
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.1 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.1 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.1 {scala-tool=[default, optional(default)], compile=[default(compile)]}[0m
 [0m[[0m[0mdebug[0m] [0m[0msbt-chain: Checking cache for: dependency: org.scalactic#scalactic_2.12;3.0.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
 [0m[[0m[0mdebug[0m] [0m[0msbt-chain-delegate: Checking cache for: dependency: org.scalactic#scalactic_2.12;3.0.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
-[0m[[0m[0mdebug[0m] [0m[0m		tried /home/wolfas/.ivy2/local/org.scalactic/scalactic_2.12//3.0.1/ivys/ivy.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried /home/vasyukhinas/.ivy2/local/org.scalactic/scalactic_2.12//3.0.1/ivys/ivy.xml[0m
 [0m[[0m[0mdebug[0m] [0m[0m	local: no ivy file found for org.scalactic#scalactic_2.12;3.0.1[0m
 [0m[[0m[0mdebug[0m] [0m[0m		tried https://repo1.maven.org/maven2/org/scalactic/scalactic_2.12/3.0.1/scalactic_2.12-3.0.1.pom[0m
 [0m[[0m[0mdebug[0m] [0m[0m	public: found md file for org.scalactic#scalactic_2.12;3.0.1[0m
@@ -131,8 +119,8 @@
 [0m[[0m[0mdebug[0m] [0m[0m	public: downloading https://repo1.maven.org/maven2/org/scalactic/scalactic_2.12/3.0.1/scalactic_2.12-3.0.1.pom[0m
 [0m[[0m[0mdebug[0m] [0m[0m	public: downloading https://repo1.maven.org/maven2/org/scalactic/scalactic_2.12/3.0.1/scalactic_2.12-3.0.1.pom.sha1[0m
 [0m[[0m[0mdebug[0m] [0m[0msha1 OK for https://repo1.maven.org/maven2/org/scalactic/scalactic_2.12/3.0.1/scalactic_2.12-3.0.1.pom[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[SUCCESSFUL ] org.scalactic#scalactic_2.12;3.0.1!scalactic_2.12.pom(pom.original) (258ms)[0m
-[0m[[0m[0mdebug[0m] [0m[0m		tried /home/wolfas/.ivy2/local/org.scalactic/scalactic_2.12//3.0.1/bundles/scalactic_2.12.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[SUCCESSFUL ] org.scalactic#scalactic_2.12;3.0.1!scalactic_2.12.pom(pom.original) (243ms)[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried /home/vasyukhinas/.ivy2/local/org.scalactic/scalactic_2.12//3.0.1/bundles/scalactic_2.12.jar[0m
 [0m[[0m[0mdebug[0m] [0m[0m		tried https://repo1.maven.org/maven2/org/scalactic/scalactic_2.12/3.0.1/scalactic_2.12-3.0.1.jar[0m
 [0m[[0m[0mdebug[0m] [0m[0m	found org.scalactic#scalactic_2.12;3.0.1 in public[0m
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.0 {provided=[compile(*), provided(*), runtime(*), master(compile)]} => dependency: org.scala-lang#scala-compiler;2.12.1 {provided=[compile(*), provided(*), runtime(*), master(compile)]}[0m
@@ -197,20 +185,8 @@
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, optional(default)]}[0m
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.1 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.1 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.1 {scala-tool=[default, optional(default)], compile=[default(compile)]}[0m
 [0m[[0m[0mdebug[0m] [0m[0msbt-chain: Checking cache for: dependency: org.scala-lang#scala-reflect;2.12.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
-[0m[[0m[0mdebug[0m] [0m[0msbt-chain-delegate: Checking cache for: dependency: org.scala-lang#scala-reflect;2.12.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
-[0m[[0m[0mdebug[0m] [0m[0m		tried /home/wolfas/.ivy2/local/org.scala-lang/scala-reflect//2.12.1/ivys/ivy.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0m	local: no ivy file found for org.scala-lang#scala-reflect;2.12.1[0m
-[0m[[0m[0mdebug[0m] [0m[0m		tried https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.12.1/scala-reflect-2.12.1.pom[0m
-[0m[[0m[0mdebug[0m] [0m[0m	public: found md file for org.scala-lang#scala-reflect;2.12.1[0m
-[0m[[0m[0mdebug[0m] [0m[0m		=> https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.12.1/scala-reflect-2.12.1.pom (2.12.1)[0m
-[0m[[0m[0mdebug[0m] [0m[0mdownloading https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.12.1/scala-reflect-2.12.1.pom ...[0m
-[0m[[0m[0mdebug[0m] [0m[0m	public: downloading https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.12.1/scala-reflect-2.12.1.pom[0m
-[0m[[0m[0mdebug[0m] [0m[0m	public: downloading https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.12.1/scala-reflect-2.12.1.pom.sha1[0m
-[0m[[0m[0mdebug[0m] [0m[0msha1 OK for https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.12.1/scala-reflect-2.12.1.pom[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[SUCCESSFUL ] org.scala-lang#scala-reflect;2.12.1!scala-reflect.pom(pom.original) (437ms)[0m
-[0m[[0m[0mdebug[0m] [0m[0m		tried /home/wolfas/.ivy2/local/org.scala-lang/scala-reflect//2.12.1/jars/scala-reflect.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m		tried https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.12.1/scala-reflect-2.12.1.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m	found org.scala-lang#scala-reflect;2.12.1 in public[0m
+[0m[[0m[0mdebug[0m] [0m[0msbt-chain: module revision found in cache: org.scala-lang#scala-reflect;2.12.1[0m
+[0m[[0m[0mdebug[0m] [0m[0m	found org.scala-lang#scala-reflect;2.12.1 in sbt-chain[0m
 [0m[[0m[0mdebug[0m] [0m[0m	[2.12.1] org.scala-lang#scala-reflect;2.12.1[0m
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies org.scalactic#scalactic_2.12;3.0.1->org.scala-lang#scala-reflect;2.12.1 [compile->compile(*)][0m
@@ -262,7 +238,7 @@
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.1 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.1 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.1 {scala-tool=[default, optional(default)], compile=[default(compile)]}[0m
 [0m[[0m[0mdebug[0m] [0m[0msbt-chain: Checking cache for: dependency: org.scala-lang.modules#scala-xml_2.12;1.0.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
 [0m[[0m[0mdebug[0m] [0m[0msbt-chain-delegate: Checking cache for: dependency: org.scala-lang.modules#scala-xml_2.12;1.0.5 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
-[0m[[0m[0mdebug[0m] [0m[0m		tried /home/wolfas/.ivy2/local/org.scala-lang.modules/scala-xml_2.12//1.0.5/ivys/ivy.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried /home/vasyukhinas/.ivy2/local/org.scala-lang.modules/scala-xml_2.12//1.0.5/ivys/ivy.xml[0m
 [0m[[0m[0mdebug[0m] [0m[0m	local: no ivy file found for org.scala-lang.modules#scala-xml_2.12;1.0.5[0m
 [0m[[0m[0mdebug[0m] [0m[0m		tried https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.12/1.0.5/scala-xml_2.12-1.0.5.pom[0m
 [0m[[0m[0mdebug[0m] [0m[0m	public: found md file for org.scala-lang.modules#scala-xml_2.12;1.0.5[0m
@@ -271,8 +247,8 @@
 [0m[[0m[0mdebug[0m] [0m[0m	public: downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.12/1.0.5/scala-xml_2.12-1.0.5.pom[0m
 [0m[[0m[0mdebug[0m] [0m[0m	public: downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.12/1.0.5/scala-xml_2.12-1.0.5.pom.sha1[0m
 [0m[[0m[0mdebug[0m] [0m[0msha1 OK for https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.12/1.0.5/scala-xml_2.12-1.0.5.pom[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[SUCCESSFUL ] org.scala-lang.modules#scala-xml_2.12;1.0.5!scala-xml_2.12.pom(pom.original) (312ms)[0m
-[0m[[0m[0mdebug[0m] [0m[0m		tried /home/wolfas/.ivy2/local/org.scala-lang.modules/scala-xml_2.12//1.0.5/bundles/scala-xml_2.12.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[SUCCESSFUL ] org.scala-lang.modules#scala-xml_2.12;1.0.5!scala-xml_2.12.pom(pom.original) (243ms)[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried /home/vasyukhinas/.ivy2/local/org.scala-lang.modules/scala-xml_2.12//1.0.5/bundles/scala-xml_2.12.jar[0m
 [0m[[0m[0mdebug[0m] [0m[0m		tried https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.12/1.0.5/scala-xml_2.12-1.0.5.jar[0m
 [0m[[0m[0mdebug[0m] [0m[0m	found org.scala-lang.modules#scala-xml_2.12;1.0.5 in public[0m
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.0 {test=[runtime(*), master(compile)]} => dependency: org.scala-lang#scala-compiler;2.12.1 {test=[runtime(*), master(compile)]}[0m
@@ -691,20 +667,8 @@
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, optional(default)]}[0m
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.1 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.1 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.1 {scala-tool=[default, optional(default)], compile=[default(compile)]}[0m
 [0m[[0m[0mdebug[0m] [0m[0msbt-chain: Checking cache for: dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, optional(default)]}[0m
-[0m[[0m[0mdebug[0m] [0m[0msbt-chain-delegate: Checking cache for: dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, optional(default)]}[0m
-[0m[[0m[0mdebug[0m] [0m[0m		tried /home/wolfas/.ivy2/local/org.scala-lang/scala-compiler//2.12.1/ivys/ivy.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0m	local: no ivy file found for org.scala-lang#scala-compiler;2.12.1[0m
-[0m[[0m[0mdebug[0m] [0m[0m		tried https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.12.1/scala-compiler-2.12.1.pom[0m
-[0m[[0m[0mdebug[0m] [0m[0m	public: found md file for org.scala-lang#scala-compiler;2.12.1[0m
-[0m[[0m[0mdebug[0m] [0m[0m		=> https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.12.1/scala-compiler-2.12.1.pom (2.12.1)[0m
-[0m[[0m[0mdebug[0m] [0m[0mdownloading https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.12.1/scala-compiler-2.12.1.pom ...[0m
-[0m[[0m[0mdebug[0m] [0m[0m	public: downloading https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.12.1/scala-compiler-2.12.1.pom[0m
-[0m[[0m[0mdebug[0m] [0m[0m	public: downloading https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.12.1/scala-compiler-2.12.1.pom.sha1[0m
-[0m[[0m[0mdebug[0m] [0m[0msha1 OK for https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.12.1/scala-compiler-2.12.1.pom[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[SUCCESSFUL ] org.scala-lang#scala-compiler;2.12.1!scala-compiler.pom(pom.original) (272ms)[0m
-[0m[[0m[0mdebug[0m] [0m[0m		tried /home/wolfas/.ivy2/local/org.scala-lang/scala-compiler//2.12.1/jars/scala-compiler.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m		tried https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.12.1/scala-compiler-2.12.1.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m	found org.scala-lang#scala-compiler;2.12.1 in public[0m
+[0m[[0m[0mdebug[0m] [0m[0msbt-chain: module revision found in cache: org.scala-lang#scala-compiler;2.12.1[0m
+[0m[[0m[0mdebug[0m] [0m[0m	found org.scala-lang#scala-compiler;2.12.1 in sbt-chain[0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#scalaexercises_2.12;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.12.1 [scala-tool->runtime][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#scalaexercises_2.12;0.1-SNAPSHOT->org.scala-lang#scala-compiler;2.12.1 [scala-tool->compile][0m
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
@@ -767,27 +731,27 @@
 [0m[[0m[0mdebug[0m] [0m[0msbt-chain: Checking cache for: dependency: org.scala-lang.modules#scala-xml_2.12;1.0.6 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
 [0m[[0m[0mdebug[0m] [0m[0msbt-chain: module revision found in cache: org.scala-lang.modules#scala-xml_2.12;1.0.6[0m
 [0m[[0m[0mdebug[0m] [0m[0m	found org.scala-lang.modules#scala-xml_2.12;1.0.6 in sbt-chain[0m
-[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.0 {test=[runtime(*), master(*)]} => dependency: org.scala-lang#scala-compiler;2.12.1 {test=[runtime(*), master(*)]}[0m
-[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.0 {test=[runtime(*), master(compile)]} => dependency: org.scala-lang#scala-compiler;2.12.1 {test=[runtime(*), master(compile)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies org.scala-lang#scala-compiler;2.12.1->org.scala-lang.modules#scala-xml_2.12;1.0.6 [compile->compile(*)][0m
-[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.0 {test=[runtime(*), master(*)]} => dependency: org.scala-lang#scala-compiler;2.12.1 {test=[runtime(*), master(*)]}[0m
-[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
-[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies org.scala-lang.modules#scala-xml_2.12;1.0.6->org.scala-lang#scala-library;2.12.1 [compile->master(*)][0m
-[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.0 {test=[runtime(*), master(*)]} => dependency: org.scala-lang#scala-compiler;2.12.1 {test=[runtime(*), master(*)]}[0m
-[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
-[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.0 {test=[runtime(*), master(*)]} => dependency: org.scala-lang#scala-compiler;2.12.1 {test=[runtime(*), master(*)]}[0m
-[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
-[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.0 {test=[runtime(*), master(*)]} => dependency: org.scala-lang#scala-compiler;2.12.1 {test=[runtime(*), master(*)]}[0m
-[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
-[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.0 {test=[runtime(*), master(*)]} => dependency: org.scala-lang#scala-compiler;2.12.1 {test=[runtime(*), master(*)]}[0m
-[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
-[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.0 {test=[runtime(*), master(*)]} => dependency: org.scala-lang#scala-compiler;2.12.1 {test=[runtime(*), master(*)]}[0m
-[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.0 {test=[runtime(*), master(compile)]} => dependency: org.scala-lang#scala-compiler;2.12.1 {test=[runtime(*), master(compile)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies org.scala-lang.modules#scala-xml_2.12;1.0.6->org.scala-lang#scala-library;2.12.1 [compile->master(compile)][0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.0 {test=[runtime(*), master(compile)]} => dependency: org.scala-lang#scala-compiler;2.12.1 {test=[runtime(*), master(compile)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.0 {test=[runtime(*), master(compile)]} => dependency: org.scala-lang#scala-compiler;2.12.1 {test=[runtime(*), master(compile)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.0 {test=[runtime(*), master(compile)]} => dependency: org.scala-lang#scala-compiler;2.12.1 {test=[runtime(*), master(compile)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.0 {test=[runtime(*), master(compile)]} => dependency: org.scala-lang#scala-compiler;2.12.1 {test=[runtime(*), master(compile)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.0 {test=[runtime(*), master(compile)]} => dependency: org.scala-lang#scala-compiler;2.12.1 {test=[runtime(*), master(compile)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies org.scala-lang.modules#scala-xml_2.12;1.0.6->org.scala-lang#scala-library;2.12.1 [compile->compile(*)][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies org.scala-lang#scala-compiler;2.12.1->org.scala-lang.modules#scala-xml_2.12;1.0.6 [compile->runtime(*)][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies org.scala-lang#scala-compiler;2.12.1->org.scala-lang.modules#scala-xml_2.12;1.0.6 [compile->compile][0m
-[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.0 {test=[runtime(*), master(*)]} => dependency: org.scala-lang#scala-compiler;2.12.1 {test=[runtime(*), master(*)]}[0m
-[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.0 {compile=[compile(*), master(*)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.1 {compile=[compile(*), master(*)], runtime=[runtime(*)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.0 {test=[runtime(*), master(compile)]} => dependency: org.scala-lang#scala-compiler;2.12.1 {test=[runtime(*), master(compile)]}[0m
+[0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies org.scala-lang.modules#scala-xml_2.12;1.0.6->org.scala-lang#scala-library;2.12.1 [runtime->runtime(*)][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies org.scala-lang.modules#scala-xml_2.12;1.0.6->org.scala-lang#scala-library;2.12.1 [runtime->compile][0m
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-library;2.12.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]} => dependency: org.scala-lang#scala-library;2.12.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
@@ -825,22 +789,8 @@
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, optional(default)]} => dependency: org.scala-lang#scala-compiler;2.12.1 {scala-tool=[default, optional(default)]}[0m
 [0m[[0m[0mdebug[0m] [0m[0mdependency descriptor has been mediated: MergedDescriptors(dependency: org.scala-lang#scala-library;2.12.1 {scala-tool=[default, optional(default)]},dependency: org.scala-lang#scala-library;2.12.1 {compile=[default(compile)]}) => dependency: org.scala-lang#scala-library;2.12.1 {scala-tool=[default, optional(default)], compile=[default(compile)]}[0m
 [0m[[0m[0mdebug[0m] [0m[0msbt-chain: Checking cache for: dependency: jline#jline;2.14.1 {optional=[compile(*), master(compile)]}[0m
-[0m[[0m[0mdebug[0m] [0m[0msbt-chain-delegate: Checking cache for: dependency: jline#jline;2.14.1 {optional=[compile(*), master(compile)]}[0m
-[0m[[0m[0mdebug[0m] [0m[0m		tried /home/wolfas/.ivy2/local/jline/jline//2.14.1/ivys/ivy.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0m	local: no ivy file found for jline#jline;2.14.1[0m
-[0m[[0m[0mdebug[0m] [0m[0m		tried https://repo1.maven.org/maven2/jline/jline/2.14.1/jline-2.14.1.pom[0m
-[0m[[0m[0mdebug[0m] [0m[0m	public: found md file for jline#jline;2.14.1[0m
-[0m[[0m[0mdebug[0m] [0m[0m		=> https://repo1.maven.org/maven2/jline/jline/2.14.1/jline-2.14.1.pom (2.14.1)[0m
-[0m[[0m[0mdebug[0m] [0m[0mdownloading https://repo1.maven.org/maven2/jline/jline/2.14.1/jline-2.14.1.pom ...[0m
-[0m[[0m[0mdebug[0m] [0m[0m	public: downloading https://repo1.maven.org/maven2/jline/jline/2.14.1/jline-2.14.1.pom[0m
-[0m[[0m[0mdebug[0m] [0m[0m	public: downloading https://repo1.maven.org/maven2/jline/jline/2.14.1/jline-2.14.1.pom.sha1[0m
-[0m[[0m[0mdebug[0m] [0m[0msha1 OK for https://repo1.maven.org/maven2/jline/jline/2.14.1/jline-2.14.1.pom[0m
-[0m[[0m[0mdebug[0m] [0m[0m	[SUCCESSFUL ] jline#jline;2.14.1!jline.pom(pom.original) (256ms)[0m
-[0m[[0m[0mdebug[0m] [0m[0msbt-chain: Checking cache for: dependency: org.sonatype.oss#oss-parent;9 {}[0m
-[0m[[0m[0mdebug[0m] [0m[0msbt-chain: module revision found in cache: org.sonatype.oss#oss-parent;9[0m
-[0m[[0m[0mdebug[0m] [0m[0m		tried /home/wolfas/.ivy2/local/jline/jline//2.14.1/jars/jline.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m		tried https://repo1.maven.org/maven2/jline/jline/2.14.1/jline-2.14.1.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m	found jline#jline;2.14.1 in public[0m
+[0m[[0m[0mdebug[0m] [0m[0msbt-chain: module revision found in cache: jline#jline;2.14.1[0m
+[0m[[0m[0mdebug[0m] [0m[0m	found jline#jline;2.14.1 in sbt-chain[0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies org.scala-lang#scala-compiler;2.12.1->jline#jline;2.14.1 [optional->compile(*)][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#scalaexercises_2.12;0.1-SNAPSHOT->org.scala-lang#scala-library;2.12.1 [scala-tool->default][0m
 [0m[[0m[0mdebug[0m] [0m[0m== resolving dependencies default#scalaexercises_2.12;0.1-SNAPSHOT->org.scala-lang#scala-library;2.12.1 [scala-tool->runtime][0m
@@ -850,59 +800,25 @@
 [0m[[0m[0mdebug[0m] [0m[0mignoring unhandled DependencyDescriptorMediator: class sbt.internal.librarymanagement.IvyScalaUtil$OverrideScalaMediator[0m
 [0m[[0m[0mdebug[0m] [0m[0m	resolved ivy file produced in cache[0m
 [0m[[0m[0mdebug[0m] [0m[0m:: downloading artifacts ::[0m
-[0m[[0m[0mdebug[0m] [0m[0m		tried https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.1/scala-library-2.12.1.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m		tried https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.12/1.0.5/scala-xml_2.12-1.0.5.jar[0m
-[0m[[0m[0minfo[0m] [0m[0mdownloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.12/1.0.5/scala-xml_2.12-1.0.5.jar ...[0m
-[0m[[0m[0minfo[0m] [0m[0mdownloading https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.1/scala-library-2.12.1.jar ...[0m
-[0m[[0m[0mdebug[0m] [0m[0m	public: downloading https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.1/scala-library-2.12.1.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m	public: downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.12/1.0.5/scala-xml_2.12-1.0.5.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0mno default ivy user dir defined: set to /home/wolfas/.ivy2[0m
-[0m[[0m[0mdebug[0m] [0m[0m		tried https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.12.1/scala-compiler-2.12.1.jar[0m
-[0m[[0m[0minfo[0m] [0m[0mdownloading https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.12.1/scala-compiler-2.12.1.jar ...[0m
-[0m[[0m[0mdebug[0m] [0m[0m	public: downloading https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.12.1/scala-compiler-2.12.1.jar[0m
 [0m[[0m[0mdebug[0m] [0m[0m		tried https://repo1.maven.org/maven2/org/scalactic/scalactic_2.12/3.0.1/scalactic_2.12-3.0.1.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.12/1.0.5/scala-xml_2.12-1.0.5.jar[0m
 [0m[[0m[0minfo[0m] [0m[0mdownloading https://repo1.maven.org/maven2/org/scalactic/scalactic_2.12/3.0.1/scalactic_2.12-3.0.1.jar ...[0m
+[0m[[0m[0minfo[0m] [0m[0mdownloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.12/1.0.5/scala-xml_2.12-1.0.5.jar ...[0m
 [0m[[0m[0mdebug[0m] [0m[0m	public: downloading https://repo1.maven.org/maven2/org/scalactic/scalactic_2.12/3.0.1/scalactic_2.12-3.0.1.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/wolfas/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.0/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-public.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mno default cache defined: set to /home/wolfas/.ivy2/cache[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/wolfas/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.0/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mno default ivy user dir defined: set to /home/wolfas/.ivy2[0m
-[0m[[0m[0mdebug[0m] [0m[0mno default ivy user dir defined: set to /home/wolfas/.ivy2[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/wolfas/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.0/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-local.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/wolfas/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.0/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/wolfas/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.0/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-public.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/wolfas/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.0/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-public.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mno default cache defined: set to /home/wolfas/.ivy2/cache[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/wolfas/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.0/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/wolfas/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.0/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mno default cache defined: set to /home/wolfas/.ivy2/cache[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/wolfas/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.0/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0msettings loaded (62ms)[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/wolfas/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.0/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-local.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0m	default cache: /home/wolfas/.ivy2/cache[0m
-[0m[[0m[0mdebug[0m] [0m[0m	default resolver: default[0m
-[0m[[0m[0mdebug[0m] [0m[0m	-- 5 resolvers:[0m
-[0m[[0m[0mdebug[0m] [0m[0m	shared [file][0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/wolfas/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.0/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-local.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0m	default [chain] [local, main][0m
-[0m[[0m[0mdebug[0m] [0m[0m	public [ibiblio][0m
-[0m[[0m[0mdebug[0m] [0m[0m	main [chain] [shared, public][0m
-[0m[[0m[0mdebug[0m] [0m[0m	local [file][0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/wolfas/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.0/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/wolfas/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.0/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/wolfas/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.0/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0msettings loaded (63ms)[0m
-[0m[[0m[0mdebug[0m] [0m[0m	default cache: /home/wolfas/.ivy2/cache[0m
-[0m[[0m[0mdebug[0m] [0m[0m	default resolver: default[0m
-[0m[[0m[0mdebug[0m] [0m[0m	-- 5 resolvers:[0m
-[0m[[0m[0mdebug[0m] [0m[0m	shared [file][0m
-[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/wolfas/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.0/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0m	default [chain] [local, main][0m
-[0m[[0m[0mdebug[0m] [0m[0m	public [ibiblio][0m
-[0m[[0m[0mdebug[0m] [0m[0m	main [chain] [shared, public][0m
-[0m[[0m[0mdebug[0m] [0m[0m	local [file][0m
-[0m[[0m[0mdebug[0m] [0m[0msettings loaded (70ms)[0m
-[0m[[0m[0mdebug[0m] [0m[0m	default cache: /home/wolfas/.ivy2/cache[0m
+[0m[[0m[0mdebug[0m] [0m[0m	public: downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.12/1.0.5/scala-xml_2.12-1.0.5.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried https://repo1.maven.org/maven2/org/scalatest/scalatest_2.12/3.0.1/scalatest_2.12-3.0.1.jar[0m
+[0m[[0m[0minfo[0m] [0m[0mdownloading https://repo1.maven.org/maven2/org/scalatest/scalatest_2.12/3.0.1/scalatest_2.12-3.0.1.jar ...[0m
+[0m[[0m[0mdebug[0m] [0m[0m	public: downloading https://repo1.maven.org/maven2/org/scalatest/scalatest_2.12/3.0.1/scalatest_2.12-3.0.1.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mno default ivy user dir defined: set to /home/vasyukhinas/.ivy2[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/vasyukhinas/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.0/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-public.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mno default cache defined: set to /home/vasyukhinas/.ivy2/cache[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/vasyukhinas/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.0/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-shared.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-lang#scala-library;2.12.1!scala-library.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/vasyukhinas/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.0/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-local.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/vasyukhinas/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.0/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-main-chain.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0mincluding url: jar:file:/home/vasyukhinas/.sbt/boot/scala-2.12.3/org.scala-sbt/sbt/1.0.0/ivy-2.3.0-sbt-a3314352b638afbf0dca19f127e8263ed6f898bd.jar!/org/apache/ivy/core/settings/ivysettings-default-chain.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0msettings loaded (84ms)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	default cache: /home/vasyukhinas/.ivy2/cache[0m
 [0m[[0m[0mdebug[0m] [0m[0m	default resolver: default[0m
 [0m[[0m[0mdebug[0m] [0m[0m	-- 5 resolvers:[0m
 [0m[[0m[0mdebug[0m] [0m[0m	shared [file][0m
@@ -912,53 +828,35 @@
 [0m[[0m[0mdebug[0m] [0m[0m	local [file][0m
 [0m[[0m[0mdebug[0m] [0m[0m	public: downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.12/1.0.5/scala-xml_2.12-1.0.5.jar.sha1[0m
 [0m[[0m[0mdebug[0m] [0m[0msha1 OK for https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.12/1.0.5/scala-xml_2.12-1.0.5.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m	public: downloading https://repo1.maven.org/maven2/org/scalactic/scalactic_2.12/3.0.1/scalactic_2.12-3.0.1.jar.sha1[0m
-[0m[[0m[0mdebug[0m] [0m[0m	public: downloading https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.1/scala-library-2.12.1.jar.sha1[0m
-[0m[[0m[0mdebug[0m] [0m[0msha1 OK for https://repo1.maven.org/maven2/org/scalactic/scalactic_2.12/3.0.1/scalactic_2.12-3.0.1.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0msha1 OK for https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.1/scala-library-2.12.1.jar[0m
-[0m[[0m[0minfo[0m] [0m[0m	[SUCCESSFUL ] org.scala-lang#scala-library;2.12.1!scala-library.jar (2748ms)[0m
-[0m[[0m[0mdebug[0m] [0m[0m		tried https://repo1.maven.org/maven2/org/scalatest/scalatest_2.12/3.0.1/scalatest_2.12-3.0.1.jar[0m
-[0m[[0m[0minfo[0m] [0m[0mdownloading https://repo1.maven.org/maven2/org/scalatest/scalatest_2.12/3.0.1/scalatest_2.12-3.0.1.jar ...[0m
-[0m[[0m[0mdebug[0m] [0m[0m	public: downloading https://repo1.maven.org/maven2/org/scalatest/scalatest_2.12/3.0.1/scalatest_2.12-3.0.1.jar[0m
-[0m[[0m[0minfo[0m] [0m[0m	[SUCCESSFUL ] org.scalactic#scalactic_2.12;3.0.1!scalactic_2.12.jar(bundle) (3009ms)[0m
-[0m[[0m[0mdebug[0m] [0m[0m		tried https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.12.1/scala-reflect-2.12.1.jar[0m
-[0m[[0m[0minfo[0m] [0m[0mdownloading https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.12.1/scala-reflect-2.12.1.jar ...[0m
-[0m[[0m[0mdebug[0m] [0m[0m	public: downloading https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.12.1/scala-reflect-2.12.1.jar[0m
-[0m[[0m[0minfo[0m] [0m[0m	[SUCCESSFUL ] org.scala-lang.modules#scala-xml_2.12;1.0.5!scala-xml_2.12.jar(bundle) (3014ms)[0m
-[0m[[0m[0mdebug[0m] [0m[0m		tried /home/wolfas/.ivy2/local/org.scala-lang.modules/scala-parser-combinators_2.12//1.0.4/bundles/scala-parser-combinators_2.12.jar[0m
+[0m[[0m[0minfo[0m] [0m[0m	[SUCCESSFUL ] org.scala-lang.modules#scala-xml_2.12;1.0.5!scala-xml_2.12.jar(bundle) (394ms)[0m
+[0m[[0m[0mdebug[0m] [0m[0m		tried /home/vasyukhinas/.ivy2/local/org.scala-lang.modules/scala-parser-combinators_2.12//1.0.4/bundles/scala-parser-combinators_2.12.jar[0m
 [0m[[0m[0mdebug[0m] [0m[0m		tried https://repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.12/1.0.4/scala-parser-combinators_2.12-1.0.4.jar[0m
 [0m[[0m[0minfo[0m] [0m[0mdownloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.12/1.0.4/scala-parser-combinators_2.12-1.0.4.jar ...[0m
 [0m[[0m[0mdebug[0m] [0m[0m	public: downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.12/1.0.4/scala-parser-combinators_2.12-1.0.4.jar[0m
 [0m[[0m[0mdebug[0m] [0m[0m	public: downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.12/1.0.4/scala-parser-combinators_2.12-1.0.4.jar.sha1[0m
 [0m[[0m[0mdebug[0m] [0m[0msha1 OK for https://repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.12/1.0.4/scala-parser-combinators_2.12-1.0.4.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m	public: downloading https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.12.1/scala-compiler-2.12.1.jar.sha1[0m
-[0m[[0m[0minfo[0m] [0m[0m	[SUCCESSFUL ] org.scala-lang.modules#scala-parser-combinators_2.12;1.0.4!scala-parser-combinators_2.12.jar(bundle) (1207ms)[0m
+[0m[[0m[0minfo[0m] [0m[0m	[SUCCESSFUL ] org.scala-lang.modules#scala-parser-combinators_2.12;1.0.4!scala-parser-combinators_2.12.jar(bundle) (340ms)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-lang#scala-compiler;2.12.1!scala-compiler.jar[0m
 [0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-lang.modules#scala-xml_2.12;1.0.6!scala-xml_2.12.jar(bundle)[0m
-[0m[[0m[0mdebug[0m] [0m[0m		tried https://repo1.maven.org/maven2/jline/jline/2.14.1/jline-2.14.1.jar[0m
-[0m[[0m[0minfo[0m] [0m[0mdownloading https://repo1.maven.org/maven2/jline/jline/2.14.1/jline-2.14.1.jar ...[0m
-[0m[[0m[0mdebug[0m] [0m[0m	public: downloading https://repo1.maven.org/maven2/jline/jline/2.14.1/jline-2.14.1.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m	public: downloading https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.12.1/scala-reflect-2.12.1.jar.sha1[0m
-[0m[[0m[0mdebug[0m] [0m[0msha1 OK for https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.12.1/scala-compiler-2.12.1.jar[0m
-[0m[[0m[0minfo[0m] [0m[0m	[SUCCESSFUL ] org.scala-lang#scala-compiler;2.12.1!scala-compiler.jar (4390ms)[0m
-[0m[[0m[0mdebug[0m] [0m[0msha1 OK for https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.12.1/scala-reflect-2.12.1.jar[0m
-[0m[[0m[0minfo[0m] [0m[0m	[SUCCESSFUL ] org.scala-lang#scala-reflect;2.12.1!scala-reflect.jar (1528ms)[0m
-[0m[[0m[0mdebug[0m] [0m[0m	public: downloading https://repo1.maven.org/maven2/jline/jline/2.14.1/jline-2.14.1.jar.sha1[0m
-[0m[[0m[0mdebug[0m] [0m[0msha1 OK for https://repo1.maven.org/maven2/jline/jline/2.14.1/jline-2.14.1.jar[0m
-[0m[[0m[0minfo[0m] [0m[0m	[SUCCESSFUL ] jline#jline;2.14.1!jline.jar (431ms)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] jline#jline;2.14.1!jline.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	[NOT REQUIRED] org.scala-lang#scala-reflect;2.12.1!scala-reflect.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	public: downloading https://repo1.maven.org/maven2/org/scalactic/scalactic_2.12/3.0.1/scalactic_2.12-3.0.1.jar.sha1[0m
+[0m[[0m[0mdebug[0m] [0m[0msha1 OK for https://repo1.maven.org/maven2/org/scalactic/scalactic_2.12/3.0.1/scalactic_2.12-3.0.1.jar[0m
+[0m[[0m[0minfo[0m] [0m[0m	[SUCCESSFUL ] org.scalactic#scalactic_2.12;3.0.1!scalactic_2.12.jar(bundle) (1137ms)[0m
 [0m[[0m[0mdebug[0m] [0m[0m	public: downloading https://repo1.maven.org/maven2/org/scalatest/scalatest_2.12/3.0.1/scalatest_2.12-3.0.1.jar.sha1[0m
 [0m[[0m[0mdebug[0m] [0m[0msha1 OK for https://repo1.maven.org/maven2/org/scalatest/scalatest_2.12/3.0.1/scalatest_2.12-3.0.1.jar[0m
-[0m[[0m[0minfo[0m] [0m[0m	[SUCCESSFUL ] org.scalatest#scalatest_2.12;3.0.1!scalatest_2.12.jar(bundle) (2582ms)[0m
-[0m[[0m[0mdebug[0m] [0m[0m:: resolution report :: resolve 3963ms :: artifacts dl 5339ms[0m
-[0m[[0m[0mdebug[0m] [0m[0m	report for default#scalaexercises_2.12;0.1-SNAPSHOT compile produced in /home/wolfas/ScalaExercises/target/scala-2.12/resolution-cache/reports/default-scalaexercises_2.12-compile.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0m	report for default#scalaexercises_2.12;0.1-SNAPSHOT runtime produced in /home/wolfas/ScalaExercises/target/scala-2.12/resolution-cache/reports/default-scalaexercises_2.12-runtime.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0m	report for default#scalaexercises_2.12;0.1-SNAPSHOT test produced in /home/wolfas/ScalaExercises/target/scala-2.12/resolution-cache/reports/default-scalaexercises_2.12-test.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0m	report for default#scalaexercises_2.12;0.1-SNAPSHOT provided produced in /home/wolfas/ScalaExercises/target/scala-2.12/resolution-cache/reports/default-scalaexercises_2.12-provided.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0m	report for default#scalaexercises_2.12;0.1-SNAPSHOT optional produced in /home/wolfas/ScalaExercises/target/scala-2.12/resolution-cache/reports/default-scalaexercises_2.12-optional.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0m	report for default#scalaexercises_2.12;0.1-SNAPSHOT compile-internal produced in /home/wolfas/ScalaExercises/target/scala-2.12/resolution-cache/reports/default-scalaexercises_2.12-compile-internal.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0m	report for default#scalaexercises_2.12;0.1-SNAPSHOT runtime-internal produced in /home/wolfas/ScalaExercises/target/scala-2.12/resolution-cache/reports/default-scalaexercises_2.12-runtime-internal.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0m	report for default#scalaexercises_2.12;0.1-SNAPSHOT test-internal produced in /home/wolfas/ScalaExercises/target/scala-2.12/resolution-cache/reports/default-scalaexercises_2.12-test-internal.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0m	report for default#scalaexercises_2.12;0.1-SNAPSHOT plugin produced in /home/wolfas/ScalaExercises/target/scala-2.12/resolution-cache/reports/default-scalaexercises_2.12-plugin.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0m	report for default#scalaexercises_2.12;0.1-SNAPSHOT pom produced in /home/wolfas/ScalaExercises/target/scala-2.12/resolution-cache/reports/default-scalaexercises_2.12-pom.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0m	report for default#scalaexercises_2.12;0.1-SNAPSHOT scala-tool produced in /home/wolfas/ScalaExercises/target/scala-2.12/resolution-cache/reports/default-scalaexercises_2.12-scala-tool.xml[0m
-[0m[[0m[0mdebug[0m] [0m[0m	resolve done (3963ms resolve - 5339ms download)[0m
+[0m[[0m[0minfo[0m] [0m[0m	[SUCCESSFUL ] org.scalatest#scalatest_2.12;3.0.1!scalatest_2.12.jar(bundle) (5617ms)[0m
+[0m[[0m[0mdebug[0m] [0m[0m:: resolution report :: resolve 1343ms :: artifacts dl 5630ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m	report for default#scalaexercises_2.12;0.1-SNAPSHOT compile produced in /home/vasyukhinas/ScalaExercises/target/scala-2.12/resolution-cache/reports/default-scalaexercises_2.12-compile.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	report for default#scalaexercises_2.12;0.1-SNAPSHOT runtime produced in /home/vasyukhinas/ScalaExercises/target/scala-2.12/resolution-cache/reports/default-scalaexercises_2.12-runtime.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	report for default#scalaexercises_2.12;0.1-SNAPSHOT test produced in /home/vasyukhinas/ScalaExercises/target/scala-2.12/resolution-cache/reports/default-scalaexercises_2.12-test.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	report for default#scalaexercises_2.12;0.1-SNAPSHOT provided produced in /home/vasyukhinas/ScalaExercises/target/scala-2.12/resolution-cache/reports/default-scalaexercises_2.12-provided.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	report for default#scalaexercises_2.12;0.1-SNAPSHOT optional produced in /home/vasyukhinas/ScalaExercises/target/scala-2.12/resolution-cache/reports/default-scalaexercises_2.12-optional.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	report for default#scalaexercises_2.12;0.1-SNAPSHOT compile-internal produced in /home/vasyukhinas/ScalaExercises/target/scala-2.12/resolution-cache/reports/default-scalaexercises_2.12-compile-internal.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	report for default#scalaexercises_2.12;0.1-SNAPSHOT runtime-internal produced in /home/vasyukhinas/ScalaExercises/target/scala-2.12/resolution-cache/reports/default-scalaexercises_2.12-runtime-internal.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	report for default#scalaexercises_2.12;0.1-SNAPSHOT test-internal produced in /home/vasyukhinas/ScalaExercises/target/scala-2.12/resolution-cache/reports/default-scalaexercises_2.12-test-internal.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	report for default#scalaexercises_2.12;0.1-SNAPSHOT plugin produced in /home/vasyukhinas/ScalaExercises/target/scala-2.12/resolution-cache/reports/default-scalaexercises_2.12-plugin.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	report for default#scalaexercises_2.12;0.1-SNAPSHOT pom produced in /home/vasyukhinas/ScalaExercises/target/scala-2.12/resolution-cache/reports/default-scalaexercises_2.12-pom.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	report for default#scalaexercises_2.12;0.1-SNAPSHOT scala-tool produced in /home/vasyukhinas/ScalaExercises/target/scala-2.12/resolution-cache/reports/default-scalaexercises_2.12-scala-tool.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	resolve done (1343ms resolve - 5630ms download)[0m
 [0m[[0m[0minfo[0m] [0m[0mDone updating.[0m

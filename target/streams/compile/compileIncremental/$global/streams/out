@@ -1,1 +1,147 @@
-[0m[[0m[0mdebug[0m] [0m[0mNo changes[0m
+[0m[[0m[0mdebug[0m] [0m[0mInvalidating /home/wolfas/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.12.1.jar: class scala.Function1 now provided by /home/vasyukhinas/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.12.1.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mInvalidating /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar: class java.lang.Object now provided by /home/vasyukhinas/jdk1.8.0_101/jre/lib/rt.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mInitial source changes: [0m
+[0m[[0m[0mdebug[0m] [0m[0m	removed:Set(/home/wolfas/ScalaExercises/src/main/scala/List.scala)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	added: Set(/home/vasyukhinas/ScalaExercises/src/main/scala/Option.scala)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	modified: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mInvalidated products: Set(/home/wolfas/ScalaExercises/target/scala-2.12/classes/Cons$.class, /home/wolfas/ScalaExercises/target/scala-2.12/classes/List.class, /home/wolfas/ScalaExercises/target/scala-2.12/classes/List$.class, /home/wolfas/ScalaExercises/target/scala-2.12/classes/Cons.class, /home/wolfas/ScalaExercises/target/scala-2.12/classes/Nil.class, /home/wolfas/ScalaExercises/target/scala-2.12/classes/Nil$.class, /home/wolfas/ScalaExercises/target/scala-2.12/classes/List$WithFilter.class)[0m
+[0m[[0m[0mdebug[0m] [0m[0mExternal API changes: API Changes: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mModified binary dependencies: Set(/home/wolfas/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.12.1.jar, /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar)[0m
+[0m[[0m[0mdebug[0m] [0m[0mInitial directly invalidated classes: Set(Cons, List.WithFilter, List, Nil)[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mSources indirectly invalidated by:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	product: Set(/home/wolfas/ScalaExercises/src/main/scala/List.scala)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	binary dep: Set(/home/wolfas/ScalaExercises/src/main/scala/List.scala)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	external source: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mAll initially invalidated classes: Set(Cons, List.WithFilter, List, Nil)[0m
+[0m[[0m[0mdebug[0m] [0m[0mAll initially invalidated sources:Set(/home/vasyukhinas/ScalaExercises/src/main/scala/Option.scala, /home/wolfas/ScalaExercises/src/main/scala/List.scala)[0m
+[0m[[0m[0mdebug[0m] [0m[0mRecompiling all 1 sources: invalidated sources (2) exceeded 50.0% of all sources[0m
+[0m[[0m[0minfo[0m] [0m[0mCompiling 1 Scala source to /home/vasyukhinas/ScalaExercises/target/scala-2.12/classes ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mGetting org.scala-sbt:compiler-bridge_2.12:1.0.0:compile for Scala 2.12.1[0m
+[0m[[0m[0minfo[0m] [0m[0mNon-compiled module 'compiler-bridge_2.12' for Scala 2.12.1. Compiling...[0m
+[0m[[0m[0mdebug[0m] [0m[0mCreating plain compiler interface for 2.12.1.[0m
+[0m[[0m[0mdebug[0m] [0m[0m  > Arguments: [0m
+[0m[[0m[0mdebug[0m] [0m[0m	-nowarn[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-d[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/tmp/sbt_201a5883[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-bootclasspath[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/vasyukhinas/jdk1.8.0_101/jre/lib/resources.jar:/home/vasyukhinas/jdk1.8.0_101/jre/lib/rt.jar:/home/vasyukhinas/jdk1.8.0_101/jre/lib/sunrsasign.jar:/home/vasyukhinas/jdk1.8.0_101/jre/lib/jsse.jar:/home/vasyukhinas/jdk1.8.0_101/jre/lib/jce.jar:/home/vasyukhinas/jdk1.8.0_101/jre/lib/charsets.jar:/home/vasyukhinas/jdk1.8.0_101/jre/lib/jfr.jar:/home/vasyukhinas/jdk1.8.0_101/jre/classes:/home/vasyukhinas/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.12.1.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-classpath[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/tmp/sbt_5fa648ec/jars/org.scala-sbt/compiler-interface/compiler-interface-1.0.0.jar:/tmp/sbt_5fa648ec/jars/org.scala-sbt/util-interface/util-interface-1.0.0.jar:/tmp/sbt_5fa648ec/srcs/org.scala-sbt/compiler-bridge_2.12/compiler-bridge_2.12-1.0.0-sources.jar:/home/vasyukhinas/.ivy2/cache/org.scala-lang/scala-compiler/jars/scala-compiler-2.12.1.jar:/home/vasyukhinas/.ivy2/cache/org.scala-lang/scala-reflect/jars/scala-reflect-2.12.1.jar:/home/vasyukhinas/.ivy2/cache/org.scala-lang.modules/scala-xml_2.12/bundles/scala-xml_2.12-1.0.6.jar:/home/vasyukhinas/.ivy2/cache/jline/jline/jars/jline-2.14.1.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/tmp/sbt_ffa396cb/xsbt/API.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/tmp/sbt_ffa396cb/xsbt/Analyzer.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/tmp/sbt_ffa396cb/xsbt/CallbackGlobal.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/tmp/sbt_ffa396cb/xsbt/ClassName.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/tmp/sbt_ffa396cb/xsbt/Command.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/tmp/sbt_ffa396cb/xsbt/Compat.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/tmp/sbt_ffa396cb/xsbt/CompilerInterface.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/tmp/sbt_ffa396cb/xsbt/ConsoleInterface.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/tmp/sbt_ffa396cb/xsbt/DelegatingReporter.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/tmp/sbt_ffa396cb/xsbt/Dependency.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/tmp/sbt_ffa396cb/xsbt/ExtractAPI.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/tmp/sbt_ffa396cb/xsbt/ExtractUsedNames.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/tmp/sbt_ffa396cb/xsbt/GlobalHelpers.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/tmp/sbt_ffa396cb/xsbt/InteractiveConsoleFactory.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/tmp/sbt_ffa396cb/xsbt/InteractiveConsoleHelper.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/tmp/sbt_ffa396cb/xsbt/InteractiveConsoleInterface.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/tmp/sbt_ffa396cb/xsbt/InteractiveConsoleResponse.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/tmp/sbt_ffa396cb/xsbt/JavaUtils.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/tmp/sbt_ffa396cb/xsbt/LocalToNonLocalClass.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/tmp/sbt_ffa396cb/xsbt/LocateClassFile.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/tmp/sbt_ffa396cb/xsbt/Log.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/tmp/sbt_ffa396cb/xsbt/Message.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/tmp/sbt_ffa396cb/xsbt/ScaladocInterface.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/tmp/sbt_ffa396cb/xsbti/InteractiveConsoleFactory.java[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/tmp/sbt_ffa396cb/xsbti/InteractiveConsoleInterface.java[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/tmp/sbt_ffa396cb/xsbti/InteractiveConsoleResponse.java[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/tmp/sbt_ffa396cb/xsbti/InteractiveConsoleResult.java[0m
+[0m[[0m[0mdebug[0m] [0m[0m      [0m
+[0m[[0m[0minfo[0m] [0m[0m  Compilation completed in 8.928s.[0m
+[0m[[0m[0mdebug[0m] [0m[0mGetting org.scala-sbt:compiler-bridge_2.12:1.0.0:compile for Scala 2.12.1[0m
+[0m[[0m[0mdebug[0m] [0m[0m[zinc] Running cached compiler 3ed9ecf8 for Scala compiler version 2.12.1[0m
+[0m[[0m[0mdebug[0m] [0m[0m[zinc] The Scala compiler is invoked with:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-bootclasspath[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/vasyukhinas/jdk1.8.0_101/jre/lib/resources.jar:/home/vasyukhinas/jdk1.8.0_101/jre/lib/rt.jar:/home/vasyukhinas/jdk1.8.0_101/jre/lib/sunrsasign.jar:/home/vasyukhinas/jdk1.8.0_101/jre/lib/jsse.jar:/home/vasyukhinas/jdk1.8.0_101/jre/lib/jce.jar:/home/vasyukhinas/jdk1.8.0_101/jre/lib/charsets.jar:/home/vasyukhinas/jdk1.8.0_101/jre/lib/jfr.jar:/home/vasyukhinas/jdk1.8.0_101/jre/classes:/home/vasyukhinas/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.12.1.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-classpath[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/vasyukhinas/ScalaExercises/target/scala-2.12/classes[0m
+[0m[[0m[0mdebug[0m] [0m[0mScala compilation took 10.577074597 s[0m
+[0m[[0m[0minfo[0m] [0m[0mDone compiling.[0m
+[0m[[0m[0mdebug[0m] [0m[0mInvalidating (transitively) by inheritance from Nil...[0m
+[0m[[0m[0mdebug[0m] [0m[0mInitial set of included nodes: Set(Nil)[0m
+[0m[[0m[0mdebug[0m] [0m[0mInvalidated by transitive inheritance dependency: Set(Nil)[0m
+[0m[[0m[0mdebug[0m] [0m[0mChange NamesChange(Nil,ModifiedNames(changes = UsedName(canEqual,[Default]), UsedName(synchronized,[Default]), UsedName(notifyAll,[Default]), UsedName(flatMap,[Default]), UsedName(WithFilter,[Default]), UsedName(ne,[Default]), UsedName($init$,[Default]), UsedName(filter,[Default]), UsedName(productIterator,[Default]), UsedName(notify,[Default]), UsedName(isInstanceOf,[Default]), UsedName(finalize,[Default]), UsedName($isInstanceOf,[Default]), UsedName(map,[Default]), UsedName(equals,[Default]), UsedName(!=,[Default]), UsedName(==,[Default]), UsedName($asInstanceOf,[Default]), UsedName(clone,[Default]), UsedName(toString,[Default]), UsedName(wait,[Default]), UsedName(productArity,[Default]), UsedName(withFilter,[Default]), UsedName(productPrefix,[Default]), UsedName(Nil,[Default]), UsedName(eq,[Default]), UsedName(productElement,[Default]), UsedName(foreach,[Default]), UsedName(hashCode,[Default]), UsedName(asInstanceOf,[Default]), UsedName(##,[Default]), UsedName(getClass,[Default]))) invalidates 1 classes due to The Nil has the following regular definitions changed:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	UsedName(canEqual,[Default]), UsedName(synchronized,[Default]), UsedName(notifyAll,[Default]), UsedName(flatMap,[Default]), UsedName(WithFilter,[Default]), UsedName(ne,[Default]), UsedName($init$,[Default]), UsedName(filter,[Default]), UsedName(productIterator,[Default]), UsedName(notify,[Default]), UsedName(isInstanceOf,[Default]), UsedName(finalize,[Default]), UsedName($isInstanceOf,[Default]), UsedName(map,[Default]), UsedName(equals,[Default]), UsedName(!=,[Default]), UsedName(==,[Default]), UsedName($asInstanceOf,[Default]), UsedName(clone,[Default]), UsedName(toString,[Default]), UsedName(wait,[Default]), UsedName(productArity,[Default]), UsedName(withFilter,[Default]), UsedName(productPrefix,[Default]), UsedName(Nil,[Default]), UsedName(eq,[Default]), UsedName(productElement,[Default]), UsedName(foreach,[Default]), UsedName(hashCode,[Default]), UsedName(asInstanceOf,[Default]), UsedName(##,[Default]), UsedName(getClass,[Default]).[0m
+[0m[[0m[0mdebug[0m] [0m[0m	> by transitive inheritance: Set(Nil)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	> [0m
+[0m[[0m[0mdebug[0m] [0m[0m	> [0m
+[0m[[0m[0mdebug[0m] [0m[0m        [0m
+[0m[[0m[0mdebug[0m] [0m[0mInvalidating (transitively) by inheritance from Cons...[0m
+[0m[[0m[0mdebug[0m] [0m[0mInitial set of included nodes: Set(Cons)[0m
+[0m[[0m[0mdebug[0m] [0m[0mInvalidated by transitive inheritance dependency: Set(Cons)[0m
+[0m[[0m[0mdebug[0m] [0m[0mChange NamesChange(Cons,ModifiedNames(changes = UsedName(canEqual,[Default]), UsedName(synchronized,[Default]), UsedName(notifyAll,[Default]), UsedName(flatMap,[Default]), UsedName(WithFilter,[Default]), UsedName(ne,[Default]), UsedName($init$,[Default]), UsedName(filter,[Default]), UsedName(productIterator,[Default]), UsedName(notify,[Default]), UsedName(isInstanceOf,[Default]), UsedName(finalize,[Default]), UsedName($isInstanceOf,[Default]), UsedName(map,[Default]), UsedName(equals,[Default]), UsedName(!=,[Default]), UsedName(==,[Default]), UsedName($asInstanceOf,[Default]), UsedName(clone,[Default]), UsedName(toString,[Default]), UsedName(wait,[Default]), UsedName(productArity,[Default]), UsedName(withFilter,[Default]), UsedName(Cons,[Default]), UsedName(productPrefix,[Default]), UsedName(copy,[Default]), UsedName(head,[Default]), UsedName(eq,[Default]), UsedName(tail,[Default]), UsedName(copy$default$1,[Default]), UsedName(productElement,[Default]), UsedName(Cons;init;,[Default]), UsedName(foreach,[Default]), UsedName(hashCode,[Default]), UsedName(asInstanceOf,[Default]), UsedName(##,[Default]), UsedName(getClass,[Default]), UsedName(copy$default$2,[Default]))) invalidates 1 classes due to The Cons has the following regular definitions changed:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	UsedName(canEqual,[Default]), UsedName(synchronized,[Default]), UsedName(notifyAll,[Default]), UsedName(flatMap,[Default]), UsedName(WithFilter,[Default]), UsedName(ne,[Default]), UsedName($init$,[Default]), UsedName(filter,[Default]), UsedName(productIterator,[Default]), UsedName(notify,[Default]), UsedName(isInstanceOf,[Default]), UsedName(finalize,[Default]), UsedName($isInstanceOf,[Default]), UsedName(map,[Default]), UsedName(equals,[Default]), UsedName(!=,[Default]), UsedName(==,[Default]), UsedName($asInstanceOf,[Default]), UsedName(clone,[Default]), UsedName(toString,[Default]), UsedName(wait,[Default]), UsedName(productArity,[Default]), UsedName(withFilter,[Default]), UsedName(Cons,[Default]), UsedName(productPrefix,[Default]), UsedName(copy,[Default]), UsedName(head,[Default]), UsedName(eq,[Default]), UsedName(tail,[Default]), UsedName(copy$default$1,[Default]), UsedName(productElement,[Default]), UsedName(Cons;init;,[Default]), UsedName(foreach,[Default]), UsedName(hashCode,[Default]), UsedName(asInstanceOf,[Default]), UsedName(##,[Default]), UsedName(getClass,[Default]), UsedName(copy$default$2,[Default]).[0m
+[0m[[0m[0mdebug[0m] [0m[0m	> by transitive inheritance: Set(Cons)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	> [0m
+[0m[[0m[0mdebug[0m] [0m[0m	> [0m
+[0m[[0m[0mdebug[0m] [0m[0m        [0m
+[0m[[0m[0mdebug[0m] [0m[0mInvalidating (transitively) by inheritance from None...[0m
+[0m[[0m[0mdebug[0m] [0m[0mInitial set of included nodes: Set(None)[0m
+[0m[[0m[0mdebug[0m] [0m[0mInvalidated by transitive inheritance dependency: Set(None)[0m
+[0m[[0m[0mdebug[0m] [0m[0mChange NamesChange(None,ModifiedNames(changes = UsedName(canEqual,[Default]), UsedName(synchronized,[Default]), UsedName(notifyAll,[Default]), UsedName(None,[Default]), UsedName(flatMap,[Default]), UsedName(WithFilter,[Default]), UsedName(ne,[Default]), UsedName($init$,[Default]), UsedName(filter,[Default]), UsedName(productIterator,[Default]), UsedName(notify,[Default]), UsedName(isInstanceOf,[Default]), UsedName(finalize,[Default]), UsedName($isInstanceOf,[Default]), UsedName(map,[Default]), UsedName(equals,[Default]), UsedName(!=,[Default]), UsedName(==,[Default]), UsedName($asInstanceOf,[Default]), UsedName(clone,[Default]), UsedName(toString,[Default]), UsedName(wait,[Default]), UsedName(productArity,[Default]), UsedName(withFilter,[Default]), UsedName(getOrElse,[Default]), UsedName(productPrefix,[Default]), UsedName(flatMap_1,[Default]), UsedName(eq,[Default]), UsedName(productElement,[Default]), UsedName(foreach,[Default]), UsedName(hashCode,[Default]), UsedName(asInstanceOf,[Default]), UsedName(##,[Default]), UsedName(orElse,[Default]), UsedName(getClass,[Default]))) invalidates 1 classes due to The None has the following regular definitions changed:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	UsedName(canEqual,[Default]), UsedName(synchronized,[Default]), UsedName(notifyAll,[Default]), UsedName(None,[Default]), UsedName(flatMap,[Default]), UsedName(WithFilter,[Default]), UsedName(ne,[Default]), UsedName($init$,[Default]), UsedName(filter,[Default]), UsedName(productIterator,[Default]), UsedName(notify,[Default]), UsedName(isInstanceOf,[Default]), UsedName(finalize,[Default]), UsedName($isInstanceOf,[Default]), UsedName(map,[Default]), UsedName(equals,[Default]), UsedName(!=,[Default]), UsedName(==,[Default]), UsedName($asInstanceOf,[Default]), UsedName(clone,[Default]), UsedName(toString,[Default]), UsedName(wait,[Default]), UsedName(productArity,[Default]), UsedName(withFilter,[Default]), UsedName(getOrElse,[Default]), UsedName(productPrefix,[Default]), UsedName(flatMap_1,[Default]), UsedName(eq,[Default]), UsedName(productElement,[Default]), UsedName(foreach,[Default]), UsedName(hashCode,[Default]), UsedName(asInstanceOf,[Default]), UsedName(##,[Default]), UsedName(orElse,[Default]), UsedName(getClass,[Default]).[0m
+[0m[[0m[0mdebug[0m] [0m[0m	> by transitive inheritance: Set(None)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	> [0m
+[0m[[0m[0mdebug[0m] [0m[0m	> [0m
+[0m[[0m[0mdebug[0m] [0m[0m        [0m
+[0m[[0m[0mdebug[0m] [0m[0mInvalidating (transitively) by inheritance from List...[0m
+[0m[[0m[0mdebug[0m] [0m[0mInitial set of included nodes: Set(List)[0m
+[0m[[0m[0mdebug[0m] [0m[0mInvalidated by transitive inheritance dependency: Set(List)[0m
+[0m[[0m[0mdebug[0m] [0m[0mChange NamesChange(List,ModifiedNames(changes = UsedName(synchronized,[Default]), UsedName(notifyAll,[Default]), UsedName(flatMap,[Default]), UsedName(WithFilter,[Default]), UsedName(ne,[Default]), UsedName($init$,[Default]), UsedName(filter,[Default]), UsedName(apply,[Default]), UsedName(notify,[Default]), UsedName(isInstanceOf,[Default]), UsedName(finalize,[Default]), UsedName(append,[Default]), UsedName($isInstanceOf,[Default]), UsedName(map,[Default]), UsedName(equals,[Default]), UsedName(!=,[Default]), UsedName(==,[Default]), UsedName(foldLeft,[Default]), UsedName($asInstanceOf,[Default]), UsedName(clone,[Default]), UsedName(toString,[Default]), UsedName(List,[Default]), UsedName(wait,[Default]), UsedName(withFilter,[Default]), UsedName(product,[Default]), UsedName(foldRight,[Default]), UsedName(eq,[Default]), UsedName(sum,[Default]), UsedName(foreach,[Default]), UsedName(hashCode,[Default]), UsedName(asInstanceOf,[Default]), UsedName(##,[Default]), UsedName(getClass,[Default]))) invalidates 1 classes due to The List has the following regular definitions changed:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	UsedName(synchronized,[Default]), UsedName(notifyAll,[Default]), UsedName(flatMap,[Default]), UsedName(WithFilter,[Default]), UsedName(ne,[Default]), UsedName($init$,[Default]), UsedName(filter,[Default]), UsedName(apply,[Default]), UsedName(notify,[Default]), UsedName(isInstanceOf,[Default]), UsedName(finalize,[Default]), UsedName(append,[Default]), UsedName($isInstanceOf,[Default]), UsedName(map,[Default]), UsedName(equals,[Default]), UsedName(!=,[Default]), UsedName(==,[Default]), UsedName(foldLeft,[Default]), UsedName($asInstanceOf,[Default]), UsedName(clone,[Default]), UsedName(toString,[Default]), UsedName(List,[Default]), UsedName(wait,[Default]), UsedName(withFilter,[Default]), UsedName(product,[Default]), UsedName(foldRight,[Default]), UsedName(eq,[Default]), UsedName(sum,[Default]), UsedName(foreach,[Default]), UsedName(hashCode,[Default]), UsedName(asInstanceOf,[Default]), UsedName(##,[Default]), UsedName(getClass,[Default]).[0m
+[0m[[0m[0mdebug[0m] [0m[0m	> by transitive inheritance: Set(List)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	> [0m
+[0m[[0m[0mdebug[0m] [0m[0m	> [0m
+[0m[[0m[0mdebug[0m] [0m[0m        [0m
+[0m[[0m[0mdebug[0m] [0m[0mInvalidating (transitively) by inheritance from Option...[0m
+[0m[[0m[0mdebug[0m] [0m[0mInitial set of included nodes: Set(Option)[0m
+[0m[[0m[0mdebug[0m] [0m[0mInvalidated by transitive inheritance dependency: Set(Option)[0m
+[0m[[0m[0mdebug[0m] [0m[0mChange NamesChange(Option,ModifiedNames(changes = UsedName(synchronized,[Default]), UsedName(notifyAll,[Default]), UsedName(flatMap,[Default]), UsedName(WithFilter,[Default]), UsedName(ne,[Default]), UsedName(Option,[Default]), UsedName($init$,[Default]), UsedName(filter,[Default]), UsedName(notify,[Default]), UsedName(isInstanceOf,[Default]), UsedName(finalize,[Default]), UsedName($isInstanceOf,[Default]), UsedName(map,[Default]), UsedName(equals,[Default]), UsedName(!=,[Default]), UsedName(==,[Default]), UsedName($asInstanceOf,[Default]), UsedName(clone,[Default]), UsedName(sequence,[Default]), UsedName(toString,[Default]), UsedName(wait,[Default]), UsedName(withFilter,[Default]), UsedName(getOrElse,[Default]), UsedName(traverse,[Default]), UsedName(flatMap_1,[Default]), UsedName(eq,[Default]), UsedName(foreach,[Default]), UsedName(hashCode,[Default]), UsedName(asInstanceOf,[Default]), UsedName(##,[Default]), UsedName(orElse,[Default]), UsedName(getClass,[Default]))) invalidates 1 classes due to The Option has the following regular definitions changed:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	UsedName(synchronized,[Default]), UsedName(notifyAll,[Default]), UsedName(flatMap,[Default]), UsedName(WithFilter,[Default]), UsedName(ne,[Default]), UsedName(Option,[Default]), UsedName($init$,[Default]), UsedName(filter,[Default]), UsedName(notify,[Default]), UsedName(isInstanceOf,[Default]), UsedName(finalize,[Default]), UsedName($isInstanceOf,[Default]), UsedName(map,[Default]), UsedName(equals,[Default]), UsedName(!=,[Default]), UsedName(==,[Default]), UsedName($asInstanceOf,[Default]), UsedName(clone,[Default]), UsedName(sequence,[Default]), UsedName(toString,[Default]), UsedName(wait,[Default]), UsedName(withFilter,[Default]), UsedName(getOrElse,[Default]), UsedName(traverse,[Default]), UsedName(flatMap_1,[Default]), UsedName(eq,[Default]), UsedName(foreach,[Default]), UsedName(hashCode,[Default]), UsedName(asInstanceOf,[Default]), UsedName(##,[Default]), UsedName(orElse,[Default]), UsedName(getClass,[Default]).[0m
+[0m[[0m[0mdebug[0m] [0m[0m	> by transitive inheritance: Set(Option)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	> [0m
+[0m[[0m[0mdebug[0m] [0m[0m	> [0m
+[0m[[0m[0mdebug[0m] [0m[0m        [0m
+[0m[[0m[0mdebug[0m] [0m[0mInvalidating (transitively) by inheritance from Option.WithFilter...[0m
+[0m[[0m[0mdebug[0m] [0m[0mInitial set of included nodes: Set(Option.WithFilter)[0m
+[0m[[0m[0mdebug[0m] [0m[0mInvalidated by transitive inheritance dependency: Set(Option.WithFilter)[0m
+[0m[[0m[0mdebug[0m] [0m[0mChange NamesChange(Option.WithFilter,ModifiedNames(changes = UsedName(synchronized,[Default]), UsedName(notifyAll,[Default]), UsedName(flatMap,[Default]), UsedName(WithFilter,[Default]), UsedName(ne,[Default]), UsedName(notify,[Default]), UsedName(isInstanceOf,[Default]), UsedName(finalize,[Default]), UsedName($isInstanceOf,[Default]), UsedName(map,[Default]), UsedName(equals,[Default]), UsedName(!=,[Default]), UsedName(==,[Default]), UsedName($asInstanceOf,[Default]), UsedName(clone,[Default]), UsedName(toString,[Default]), UsedName(wait,[Default]), UsedName(withFilter,[Default]), UsedName(eq,[Default]), UsedName(Option;WithFilter;init;,[Default]), UsedName(foreach,[Default]), UsedName(hashCode,[Default]), UsedName(asInstanceOf,[Default]), UsedName(##,[Default]), UsedName(getClass,[Default]))) invalidates 1 classes due to The Option.WithFilter has the following regular definitions changed:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	UsedName(synchronized,[Default]), UsedName(notifyAll,[Default]), UsedName(flatMap,[Default]), UsedName(WithFilter,[Default]), UsedName(ne,[Default]), UsedName(notify,[Default]), UsedName(isInstanceOf,[Default]), UsedName(finalize,[Default]), UsedName($isInstanceOf,[Default]), UsedName(map,[Default]), UsedName(equals,[Default]), UsedName(!=,[Default]), UsedName(==,[Default]), UsedName($asInstanceOf,[Default]), UsedName(clone,[Default]), UsedName(toString,[Default]), UsedName(wait,[Default]), UsedName(withFilter,[Default]), UsedName(eq,[Default]), UsedName(Option;WithFilter;init;,[Default]), UsedName(foreach,[Default]), UsedName(hashCode,[Default]), UsedName(asInstanceOf,[Default]), UsedName(##,[Default]), UsedName(getClass,[Default]).[0m
+[0m[[0m[0mdebug[0m] [0m[0m	> by transitive inheritance: Set(Option.WithFilter)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	> [0m
+[0m[[0m[0mdebug[0m] [0m[0m	> [0m
+[0m[[0m[0mdebug[0m] [0m[0m        [0m
+[0m[[0m[0mdebug[0m] [0m[0mInvalidating (transitively) by inheritance from Some...[0m
+[0m[[0m[0mdebug[0m] [0m[0mInitial set of included nodes: Set(Some)[0m
+[0m[[0m[0mdebug[0m] [0m[0mInvalidated by transitive inheritance dependency: Set(Some)[0m
+[0m[[0m[0mdebug[0m] [0m[0mChange NamesChange(Some,ModifiedNames(changes = UsedName(canEqual,[Default]), UsedName(synchronized,[Default]), UsedName(notifyAll,[Default]), UsedName(flatMap,[Default]), UsedName(WithFilter,[Default]), UsedName(ne,[Default]), UsedName($init$,[Default]), UsedName(filter,[Default]), UsedName(productIterator,[Default]), UsedName(notify,[Default]), UsedName(isInstanceOf,[Default]), UsedName(finalize,[Default]), UsedName($isInstanceOf,[Default]), UsedName(map,[Default]), UsedName(equals,[Default]), UsedName(!=,[Default]), UsedName(==,[Default]), UsedName($asInstanceOf,[Default]), UsedName(clone,[Default]), UsedName(toString,[Default]), UsedName(Some;init;,[Default]), UsedName(wait,[Default]), UsedName(productArity,[Default]), UsedName(withFilter,[Default]), UsedName(Some,[Default]), UsedName(getOrElse,[Default]), UsedName(productPrefix,[Default]), UsedName(get,[Default]), UsedName(copy,[Default]), UsedName(flatMap_1,[Default]), UsedName(eq,[Default]), UsedName(copy$default$1,[Default]), UsedName(productElement,[Default]), UsedName(foreach,[Default]), UsedName(hashCode,[Default]), UsedName(asInstanceOf,[Default]), UsedName(##,[Default]), UsedName(orElse,[Default]), UsedName(getClass,[Default]))) invalidates 1 classes due to The Some has the following regular definitions changed:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	UsedName(canEqual,[Default]), UsedName(synchronized,[Default]), UsedName(notifyAll,[Default]), UsedName(flatMap,[Default]), UsedName(WithFilter,[Default]), UsedName(ne,[Default]), UsedName($init$,[Default]), UsedName(filter,[Default]), UsedName(productIterator,[Default]), UsedName(notify,[Default]), UsedName(isInstanceOf,[Default]), UsedName(finalize,[Default]), UsedName($isInstanceOf,[Default]), UsedName(map,[Default]), UsedName(equals,[Default]), UsedName(!=,[Default]), UsedName(==,[Default]), UsedName($asInstanceOf,[Default]), UsedName(clone,[Default]), UsedName(toString,[Default]), UsedName(Some;init;,[Default]), UsedName(wait,[Default]), UsedName(productArity,[Default]), UsedName(withFilter,[Default]), UsedName(Some,[Default]), UsedName(getOrElse,[Default]), UsedName(productPrefix,[Default]), UsedName(get,[Default]), UsedName(copy,[Default]), UsedName(flatMap_1,[Default]), UsedName(eq,[Default]), UsedName(copy$default$1,[Default]), UsedName(productElement,[Default]), UsedName(foreach,[Default]), UsedName(hashCode,[Default]), UsedName(asInstanceOf,[Default]), UsedName(##,[Default]), UsedName(orElse,[Default]), UsedName(getClass,[Default]).[0m
+[0m[[0m[0mdebug[0m] [0m[0m	> by transitive inheritance: Set(Some)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	> [0m
+[0m[[0m[0mdebug[0m] [0m[0m	> [0m
+[0m[[0m[0mdebug[0m] [0m[0m        [0m
+[0m[[0m[0mdebug[0m] [0m[0mInvalidating (transitively) by inheritance from List.WithFilter...[0m
+[0m[[0m[0mdebug[0m] [0m[0mInitial set of included nodes: Set(List.WithFilter)[0m
+[0m[[0m[0mdebug[0m] [0m[0mInvalidated by transitive inheritance dependency: Set(List.WithFilter)[0m
+[0m[[0m[0mdebug[0m] [0m[0mChange NamesChange(List.WithFilter,ModifiedNames(changes = UsedName(synchronized,[Default]), UsedName(notifyAll,[Default]), UsedName(flatMap,[Default]), UsedName(WithFilter,[Default]), UsedName(ne,[Default]), UsedName(notify,[Default]), UsedName(isInstanceOf,[Default]), UsedName(finalize,[Default]), UsedName($isInstanceOf,[Default]), UsedName(map,[Default]), UsedName(equals,[Default]), UsedName(!=,[Default]), UsedName(==,[Default]), UsedName($asInstanceOf,[Default]), UsedName(clone,[Default]), UsedName(toString,[Default]), UsedName(List;WithFilter;init;,[Default]), UsedName(wait,[Default]), UsedName(withFilter,[Default]), UsedName(eq,[Default]), UsedName(foreach,[Default]), UsedName(hashCode,[Default]), UsedName(asInstanceOf,[Default]), UsedName(##,[Default]), UsedName(getClass,[Default]))) invalidates 1 classes due to The List.WithFilter has the following regular definitions changed:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	UsedName(synchronized,[Default]), UsedName(notifyAll,[Default]), UsedName(flatMap,[Default]), UsedName(WithFilter,[Default]), UsedName(ne,[Default]), UsedName(notify,[Default]), UsedName(isInstanceOf,[Default]), UsedName(finalize,[Default]), UsedName($isInstanceOf,[Default]), UsedName(map,[Default]), UsedName(equals,[Default]), UsedName(!=,[Default]), UsedName(==,[Default]), UsedName($asInstanceOf,[Default]), UsedName(clone,[Default]), UsedName(toString,[Default]), UsedName(List;WithFilter;init;,[Default]), UsedName(wait,[Default]), UsedName(withFilter,[Default]), UsedName(eq,[Default]), UsedName(foreach,[Default]), UsedName(hashCode,[Default]), UsedName(asInstanceOf,[Default]), UsedName(##,[Default]), UsedName(getClass,[Default]).[0m
+[0m[[0m[0mdebug[0m] [0m[0m	> by transitive inheritance: Set(List.WithFilter)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	> [0m
+[0m[[0m[0mdebug[0m] [0m[0m	> [0m
+[0m[[0m[0mdebug[0m] [0m[0m        [0m
+[0m[[0m[0mdebug[0m] [0m[0mNew invalidations:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mInitial set of included nodes: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mPreviously invalidated, but (transitively) depend on new invalidations:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mAll newly invalidated classes after taking into account (previously) recompiled classes:Set()[0m
