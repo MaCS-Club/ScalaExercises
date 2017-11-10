@@ -11,7 +11,7 @@ class OptionTest extends FlatSpec {
     case _ => Left("Employee not found")
   }
 
-  "Sequantitng over Employees" should "Right-value only if all values are Right-values" in {
+  "Sequantitng over Employees" should " be Right-value only if all values are Right-values" in {
     assert((Either.sequence(employees) == Right(List(Employee("Joe","Finances",Some("Julie")),Employee("Mary","IT",None))))&& 
     (Either.sequence(employeesAndOutsources) == Left("Employee not found")))
   } 
