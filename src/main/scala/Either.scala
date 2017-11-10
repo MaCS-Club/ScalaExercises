@@ -28,7 +28,7 @@ object Either {
     try Right(a)
     catch { case e: Exception => Left(e) }
   
-  def traverse_1[E,A,B](es: List[A])(f: A => Either[E, B]): Either[E, List[B]] = ???
+  def traverse[E,A,B](es: List[A])(f: A => Either[E, B]): Either[E, List[B]] = ???
     
   
   def sequence[E,A](es: List[Either[E,A]]): Either[E,List[A]] = ???
