@@ -1,6 +1,6 @@
 trait Stream[+A] {
 
-  def toListRecursive: List[A] = this match {
+  def toList: List[A] = this match {
     case Cons(h,t) => h() :: t().toListRecursive
     case _ => List()
   }
@@ -78,7 +78,7 @@ object Stream {
 
   def from(n: Int): Stream[Int] = ???
 
-  val fibs = ???
+  def fibs() = ???
 
   def unfold[A, S](z: S)(f: S => Option[(A, S)]): Stream[A] = ???
 }
