@@ -1,7 +1,7 @@
 trait Stream[+A] {
 
   def toList: List[A] = this match {
-    case Cons(h,t) => h() :: t().toListRecursive
+    case Cons(h,t) => h() :: t().toList
     case _ => List()
   }
 
